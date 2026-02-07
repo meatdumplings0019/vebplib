@@ -19,8 +19,5 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/meatdumplings0019/vebplib"
 
-[tool.setuptools]
-package-dir = { "" = "src" }
-
 [tool.setuptools.packages.find]
-where = ["src"]
+where = [""]
